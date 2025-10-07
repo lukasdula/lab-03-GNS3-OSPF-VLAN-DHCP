@@ -1,6 +1,6 @@
 # **README**
 
-## **03 - DHCP Server and Relay Integration**
+## **DHCP Server and Relay Integration**
 
 ## Introduction and Objectives
 
