@@ -60,4 +60,4 @@ In this third lab, I set up a DHCP server on Xubuntu to show how it connects wit
 
 ---
 
-© 2025 - **Lukas Dula** | _Home Network Lab & Portfolio_
+© 2025 - **Lukas Dula** | **Home Networking Lab & Portfolio**
