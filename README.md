@@ -55,7 +55,7 @@ The objectives are:
 
 ## **Author's Note**
 
-This was my first attempt at creating a DHCP server on Xubuntu. The setup was more advanced than in previous labs and required careful coordination between OSPF, VLANs, and the DHCP relay. When the network finally came online and all VLANs started receiving their IP addresses correctly, it was a great feeling to see everything working as it should.
+This was my first attempt at creating a DHCP server on Xubuntu. The setup was more advanced than in previous labs and required careful coordination between OSPF, VLANs, and the DHCP relay. When the network finally became fully functional and all VLANs started receiving their IP addresses correctly, it was a great feeling to see everything working as it should.
 
 
 ---
