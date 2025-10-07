@@ -288,5 +288,5 @@ VLANs and trunks are configured and operational on SW1 and SW2. Router subinterf
 
 ---
 
-**Next part:**
+**Next part:** [DHCP and Relay Configuration](03-dhcp-server-and-relay-integration.md)
 
