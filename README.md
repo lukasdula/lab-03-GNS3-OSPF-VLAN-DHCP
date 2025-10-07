@@ -1,5 +1,7 @@
 # **README**
 
+
+
 ## **DHCP Server and Relay Integration**
 
 ## Introduction and Objectives
@@ -27,11 +29,11 @@ The objectives are:
 
 ## **Lab Structure**
 
-1. OSPF Routing Configuration
+1. [OSPF Routing Configuration](01-ospf-routing-configuration.md)
     
-2. VLAN and Subinterface Configuration
+2. [VLAN and Subinterface Configuration](02-vlan-and-subinterface-configuration.md)
     
-3. DHCP and Relay Configuration
+3. [DHCP and Relay Configuration](03-dhcp-server-and-relay-integration.md)
 
 
 ---
