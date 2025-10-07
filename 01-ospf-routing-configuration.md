@@ -88,4 +88,4 @@ where VLANs will be added to extend and segment the network.
 
 ---
 
-**Next part:**[OSPF Routing Configuration](01-ospf-routing-configuration.md)
+**Next part:** [VLAN and Subinterface Configuration](02-vlan-and-subinterface-configuration.md)
