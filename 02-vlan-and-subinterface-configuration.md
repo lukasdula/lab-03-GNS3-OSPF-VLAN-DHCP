@@ -1,4 +1,4 @@
-# **02 - VLAN and Subinterface Configuration**
+# **2 - VLAN and Subinterface Configuration**
 
 ## **2.1 Introduction**  
 
