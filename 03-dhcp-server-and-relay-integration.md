@@ -1,5 +1,5 @@
 
-# **03 - DHCP and Relay Configuration**
+# **3 - DHCP and Relay Configuration**
 
 ## **3.1 Introduction**  
 
