@@ -1,12 +1,16 @@
 
 # **1 - OSPF Routing Configuration**
 
+<br><br>
+
 ## **1.1 Introduction**  
 
 This section creates Layer 3 connectivity between two routers, R1 and R2, using the OSPF routing protocol. The goal is to enable dynamic route exchange within a single OSPF area (Area 0). Both routers are part of the same point-to-point network, which allows them to automatically form adjacency and exchange routing information.  
 This setup will be the base for VLAN and DHCP configuration in the next parts of the lab.
 
 ![TOPOLOGY-map-1](images/Pasted%20image%2020251007014838.png)
+
+<br><br>
 
 ## **1.2 Topology**  
 
@@ -17,6 +21,7 @@ The following devices are used in this part of the lab. Both routers are connect
 | R1     | Gi0/1     | SW3            | Gi0/1 (R2)     | 10.10.1.1  | 255.255.255.252 | -       |
 | R2     | Gi0/2     | SW3            | Gi0/2 (R1)     | 10.10.1.2  | 255.255.255.252 | -       |
 
+<br><br>
 
 ## **1.3 Steps**
 
@@ -30,6 +35,7 @@ The following devices are used in this part of the lab. Both routers are connect
     
 5. Verify OSPF neighbor relationship and routing table.
     
+<br><br>
 
 ## **1.4 Configuration**
 
@@ -67,6 +73,8 @@ write memory
 ```
 ![OSPF-R2](images/Pasted%20image%2020251006215625.png)
 
+<br><br>
+
 ## **1.5 Verification**  
 
 After both routers are configured, check that OSPF neighbors are formed and routes are visible in the routing table.
@@ -78,6 +86,8 @@ R1# ping 10.10.1.2
 R1# show ip interface brief
 ```
 ![VERIFY](images/Pasted%20image%2020251006220215.png)
+
+<br><br>
 
 ## **1.6 Conclusion** 
 
