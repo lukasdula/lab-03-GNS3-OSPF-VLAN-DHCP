@@ -11,7 +11,7 @@ This note configures VLANs, trunk links, and router subinterfaces to separate La
 
 <br><br>
 
-## 2.2 Topology
+## <br><br> 2.2 Topology
 
 | **Switch** | **VLAN**   | **Purpose / Device** | **Access Port →** | **Trunk Port → Router** | **Subinterface** |
 | ------ | ------ | ---------------- | ------------- | ------------------- | ------------ |
