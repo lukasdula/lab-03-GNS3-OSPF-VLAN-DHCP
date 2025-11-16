@@ -1,5 +1,7 @@
 # **2 - VLAN and Subinterface Configuration**
 
+<br><br>
+
 ## **2.1 Introduction**  
 
 This note configures VLANs, trunk links, and router subinterfaces to separate Layer 2 domains and prepare the network for DHCP in the next part. OSPF already provides Layer 3 backbone connectivity.
@@ -7,6 +9,7 @@ This note configures VLANs, trunk links, and router subinterfaces to separate La
 
 ![TOPOLOGY-MAP-2](images/Pasted%20image%2020251007031313.png)
 
+<br><br>
 
 ## 2.2 Topology
 
@@ -18,8 +21,7 @@ This note configures VLANs, trunk links, and router subinterfaces to separate La
 | SW2    | VLAN40 | PC4              | Gi0/3         | Gi0/1 → R1          | Gi0/2.40     |
 | SW1    | VLAN50 | Xubuntu-server   | Gi0/0         | Gi0/2 → R2          | Gi0/1.50     |
 
-
-
+<br><br>
 
 ## **2.3 Steps**
 
@@ -35,8 +37,7 @@ This note configures VLANs, trunk links, and router subinterfaces to separate La
     
 6. Basic diagnostics of VLANs and interfaces.
     
-
-
+<br><br>
 
 ## **2.4 VLAN Setup**  
 
@@ -114,7 +115,7 @@ write memory
 ```
 ![SW2-VLAN](images/Pasted%20image%2020251007022123.png)
 
-
+<br><br>
 
 ## **2.5 Trunk Configuration**  
 
@@ -159,7 +160,7 @@ write memory
 ```
 ![TRUNK-SW2](images/Pasted%20image%2020251007022326.png)
 
-
+<br><br>
 
 ## **2.6 Subinterface Configuration**  
 
@@ -222,7 +223,7 @@ write memory
 ```
 ![encapsulation-R1](images/Pasted%20image%2020251007141704.png)
 
-
+<br><br>
 
 ## **2.7 Diagnostics**  
 
@@ -280,7 +281,7 @@ show running-config
 
 >**Note.:** End devices currently have no IP addresses because DHCP is not yet configured. Ping tests will be performed after DHCP setup in the next note.
 
-
+<br><br>
 
 ## **2.8 Conclusion**  
 
