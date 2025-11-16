@@ -7,7 +7,7 @@
 
 This section configures a central DHCP server on Xubuntu within VLAN 50 and enables dynamic IP assignment for clients located in VLANs 10, 20, 30, and 40. Router R1 and R2 act as DHCP relay agents, forwarding client requests between their VLANs and the DHCP server. VLAN 50 remains a server segment with a static IP address assigned to the Xubuntu server.
 
-![](Pasted%20image%2020251007161847.png)
+![](images/Pasted%20image%2020251007161847.png)
 
 <br><br>
 
