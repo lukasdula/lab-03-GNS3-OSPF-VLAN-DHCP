@@ -1,13 +1,15 @@
 
 # **3 - DHCP and Relay Configuration**
 
+<br><br>
+
 ## **3.1 Introduction**  
 
 This section configures a central DHCP server on Xubuntu within VLAN 50 and enables dynamic IP assignment for clients located in VLANs 10, 20, 30, and 40. Router R1 and R2 act as DHCP relay agents, forwarding client requests between their VLANs and the DHCP server. VLAN 50 remains a server segment with a static IP address assigned to the Xubuntu server.
 
 ![](Pasted%20image%2020251007161847.png)
 
-
+<br><br>
 
 ## **3.2 Steps**
 
@@ -29,8 +31,7 @@ This section configures a central DHCP server on Xubuntu within VLAN 50 and enab
     
 9. Verify DHCP operation and perform diagnostic ping tests between VLANs.
     
-
-
+<br><br>
 
 ## **3.3 Configuration (Xubuntu DHCP Server)**
 
@@ -152,8 +153,7 @@ Expected output:
 ```
 Active: active (running)
 ```
-
-
+<br><br>
 
 ## **3.4 Static Route on DHCP Server**
 
@@ -166,8 +166,7 @@ sudo ip route add default via 10.50.0.1
 
 This allows the server to send DHCP responses to all VLANs through R2.
 
-
-
+<br><br>
 
 ## **3.5 Configuration (Router Relay Setup)**
 
@@ -205,6 +204,7 @@ write memory
 ```
 ![R2-RELAY](images/Pasted%20image%2020251007143208.png)
 
+<br><br>
 
 ## **3.6 OSPF Network Configuration for VLANs and DHCP Connectivity**
 
@@ -281,8 +281,7 @@ ping 10.50.0.10
 > **Notes.:** Adding VLAN networks to OSPF on both routers ensures full Layer 3 visibility across the topology.  
 > Including VLAN 50 (the DHCP server segment) in OSPF is essential, as it allows DHCP requests relayed by R1 to reach the server and the responses to be routed back correctly.
 
-
-
+<br><br>
 
 ## **3.7 Verification (DHCP Operation)**  
 
@@ -348,7 +347,7 @@ ip a
 
 Expected result: Each client successfully obtains an IP address from the DHCP (xubuntu-server).
 
-
+<br><br>
 
 ## **3.8 Diagnostics (Connectivity Tests)**  
 
@@ -386,8 +385,7 @@ ping 10.40.40.100
     
 - Inter-VLAN communication operates correctly via routers R1 and R2.
     
-
-
+<br><br>
 
 ## **3.9 Conclusion** 
 
